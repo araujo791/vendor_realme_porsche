@@ -49,6 +49,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/porsche/proprietary/odm/etc/camera/config/oplus_camera_algo_switch_config:$(TARGET_COPY_OUT_ODM)/etc/camera/config/oplus_camera_algo_switch_config \
     vendor/realme/porsche/proprietary/odm/etc/camera/config/oplus_camera_aps_config:$(TARGET_COPY_OUT_ODM)/etc/camera/config/oplus_camera_aps_config \
     vendor/realme/porsche/proprietary/odm/etc/camera/config/oplus_camera_config:$(TARGET_COPY_OUT_ODM)/etc/camera/config/oplus_camera_config \
+    vendor/realme/porsche/proprietary/odm/etc/camera/config/oplus_preview_decision_params.json:$(TARGET_COPY_OUT_ODM)/etc/camera/config/oplus_preview_decision_params.json \
     vendor/realme/porsche/proprietary/odm/etc/camera/config/ov02b10:$(TARGET_COPY_OUT_ODM)/etc/camera/config/ov02b10 \
     vendor/realme/porsche/proprietary/odm/etc/camera/config/ov08d10:$(TARGET_COPY_OUT_ODM)/etc/camera/config/ov08d10 \
     vendor/realme/porsche/proprietary/odm/etc/camera/config/video_beauty_default_config:$(TARGET_COPY_OUT_ODM)/etc/camera/config/video_beauty_default_config \
@@ -136,6 +137,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/porsche/proprietary/odm/etc/camera/filters_lut/ByW7g4bbf:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/ByW7g4bbf \
     vendor/realme/porsche/proprietary/odm/etc/camera/filters_lut/ByYo3If:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/ByYo3If \
     vendor/realme/porsche/proprietary/odm/etc/camera/filters_lut/BycYf7WWz:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/BycYf7WWz \
+    vendor/realme/porsche/proprietary/odm/etc/camera/filters_lut/Cold.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/Cold.cube.rgb.bin \
     vendor/realme/porsche/proprietary/odm/etc/camera/filters_lut/DL_D_G4.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/DL_D_G4.cube.rgb.bin \
     vendor/realme/porsche/proprietary/odm/etc/camera/filters_lut/DL_L_B6.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/DL_L_B6.cube.rgb.bin \
     vendor/realme/porsche/proprietary/odm/etc/camera/filters_lut/Emerald.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/Emerald.cube.rgb.bin \
@@ -157,11 +159,13 @@ PRODUCT_COPY_FILES += \
     vendor/realme/porsche/proprietary/odm/etc/camera/filters_lut/SweetSnapAlice-3.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/SweetSnapAlice-3.CUBE.rgb.bin \
     vendor/realme/porsche/proprietary/odm/etc/camera/filters_lut/Sy4uLSTgf:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/Sy4uLSTgf \
     vendor/realme/porsche/proprietary/odm/etc/camera/filters_lut/Syt2KeZZf:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/Syt2KeZZf \
+    vendor/realme/porsche/proprietary/odm/etc/camera/filters_lut/Texture-70.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/Texture-70.cube.rgb.bin \
     vendor/realme/porsche/proprietary/odm/etc/camera/filters_lut/V01-landscape-2.6.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/V01-landscape-2.6.CUBE.rgb.bin \
     vendor/realme/porsche/proprietary/odm/etc/camera/filters_lut/V02-portrait-2.5.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/V02-portrait-2.5.CUBE.rgb.bin \
     vendor/realme/porsche/proprietary/odm/etc/camera/filters_lut/V03-food-2.0.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/V03-food-2.0.CUBE.rgb.bin \
     vendor/realme/porsche/proprietary/odm/etc/camera/filters_lut/V04-night-1.3.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/V04-night-1.3.CUBE.rgb.bin \
     vendor/realme/porsche/proprietary/odm/etc/camera/filters_lut/V05-mono-3.3.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/V05-mono-3.3.CUBE.rgb.bin \
+    vendor/realme/porsche/proprietary/odm/etc/camera/filters_lut/White.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/White.cube.rgb.bin \
     vendor/realme/porsche/proprietary/odm/etc/camera/filters_lut/YoucamAdorable80.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/YoucamAdorable80.cube.rgb.bin \
     vendor/realme/porsche/proprietary/odm/etc/camera/filters_lut/b-w-P8.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/b-w-P8.CUBE.rgb.bin \
     vendor/realme/porsche/proprietary/odm/etc/camera/filters_lut/black_gold.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/black_gold.bin \
@@ -187,6 +191,8 @@ PRODUCT_COPY_FILES += \
     vendor/realme/porsche/proprietary/odm/etc/camera/filters_lut/fuji-eterna-v2.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/fuji-eterna-v2.cube.rgb.bin \
     vendor/realme/porsche/proprietary/odm/etc/camera/filters_lut/fuji.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/fuji.cube.rgb.bin \
     vendor/realme/porsche/proprietary/odm/etc/camera/filters_lut/gourmet.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/gourmet.cube.rgb.bin \
+    vendor/realme/porsche/proprietary/odm/etc/camera/filters_lut/gt-beach.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/gt-beach.cube.rgb.bin \
+    vendor/realme/porsche/proprietary/odm/etc/camera/filters_lut/gt-glazed-tile.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/gt-glazed-tile.cube.rgb.bin \
     vendor/realme/porsche/proprietary/odm/etc/camera/filters_lut/interstellar_space.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/interstellar_space.bin \
     vendor/realme/porsche/proprietary/odm/etc/camera/filters_lut/jiari-2.0.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/jiari-2.0.cube.rgb.bin \
     vendor/realme/porsche/proprietary/odm/etc/camera/filters_lut/jw_sun.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/jw_sun.CUBE.rgb.bin \
@@ -286,7 +292,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/porsche/proprietary/odm/etc/camera/motionblur/model.data:$(TARGET_COPY_OUT_ODM)/etc/camera/motionblur/model.data \
     vendor/realme/porsche/proprietary/odm/etc/camera/mtStereoParams.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/mtStereoParams.bin \
     vendor/realme/porsche/proprietary/odm/etc/camera/mwStereoParams.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/mwStereoParams.bin \
-    vendor/realme/porsche/proprietary/odm/etc/camera/omoji/assets/sdk_assets/ai_face_processor_e47_s1.bundle:$(TARGET_COPY_OUT_ODM)/etc/camera/omoji/assets/sdk_assets/ai_face_processor_e47_s1.bundle \
+    vendor/realme/porsche/proprietary/odm/etc/camera/omoji/assets/sdk_assets/ai_face_processor_e51.bundle:$(TARGET_COPY_OUT_ODM)/etc/camera/omoji/assets/sdk_assets/ai_face_processor_e51.bundle \
     vendor/realme/porsche/proprietary/odm/etc/camera/omoji/assets/sdk_assets/controller_cpp.bundle:$(TARGET_COPY_OUT_ODM)/etc/camera/omoji/assets/sdk_assets/controller_cpp.bundle \
     vendor/realme/porsche/proprietary/odm/etc/camera/pf/PerfectColorSet/normal/colorLut0:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/normal/colorLut0 \
     vendor/realme/porsche/proprietary/odm/etc/camera/pf/PerfectColorSet/normal/colorLut1:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/normal/colorLut1 \
@@ -539,9 +545,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/porsche/proprietary/odm/lib/rfsa/adsp/libQnnHtpSkel.so:$(TARGET_COPY_OUT_ODM)/lib/rfsa/adsp/libQnnHtpSkel.so \
     vendor/realme/porsche/proprietary/odm/lib/rfsa/adsp/libSuperRawPost_skel.so:$(TARGET_COPY_OUT_ODM)/lib/rfsa/adsp/libSuperRawPost_skel.so \
     vendor/realme/porsche/proprietary/odm/lib/rfsa/adsp/libVDHexagonBlurless_v2_skel.so:$(TARGET_COPY_OUT_ODM)/lib/rfsa/adsp/libVDHexagonBlurless_v2_skel.so \
-    vendor/realme/porsche/proprietary/odm/lib/rfsa/adsp/libaiboost_skel.so:$(TARGET_COPY_OUT_ODM)/lib/rfsa/adsp/libaiboost_skel.so \
-    vendor/realme/porsche/proprietary/odm/lib/rfsa/adsp/libaiboost_skel_v65.so:$(TARGET_COPY_OUT_ODM)/lib/rfsa/adsp/libaiboost_skel_v65.so \
-    vendor/realme/porsche/proprietary/odm/lib/rfsa/adsp/libaiboost_skel_v66.so:$(TARGET_COPY_OUT_ODM)/lib/rfsa/adsp/libaiboost_skel_v66.so \
     vendor/realme/porsche/proprietary/odm/lib/rfsa/adsp/libarcsoft_dualcam_refocus_5221_skel.so:$(TARGET_COPY_OUT_ODM)/lib/rfsa/adsp/libarcsoft_dualcam_refocus_5221_skel.so \
     vendor/realme/porsche/proprietary/odm/lib/rfsa/adsp/libarcsoft_dualcam_refocus_skel.so:$(TARGET_COPY_OUT_ODM)/lib/rfsa/adsp/libarcsoft_dualcam_refocus_skel.so \
     vendor/realme/porsche/proprietary/odm/lib/rfsa/adsp/libarcsoft_hdrplus_hvx_skel.so:$(TARGET_COPY_OUT_ODM)/lib/rfsa/adsp/libarcsoft_hdrplus_hvx_skel.so \
@@ -549,8 +552,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/porsche/proprietary/odm/lib/rfsa/adsp/libarcsoft_hdrplus_se_hvx_skel.so:$(TARGET_COPY_OUT_ODM)/lib/rfsa/adsp/libarcsoft_hdrplus_se_hvx_skel.so \
     vendor/realme/porsche/proprietary/odm/lib/rfsa/adsp/libarcsoft_portraitSN_hvx_skel.so:$(TARGET_COPY_OUT_ODM)/lib/rfsa/adsp/libarcsoft_portraitSN_hvx_skel.so \
     vendor/realme/porsche/proprietary/odm/lib/rfsa/adsp/libarcsoft_portraitsn_hvx_skel_21617.so:$(TARGET_COPY_OUT_ODM)/lib/rfsa/adsp/libarcsoft_portraitsn_hvx_skel_21617.so \
-    vendor/realme/porsche/proprietary/odm/lib/rfsa/adsp/libc++.so.1:$(TARGET_COPY_OUT_ODM)/lib/rfsa/adsp/libc++.so.1 \
-    vendor/realme/porsche/proprietary/odm/lib/rfsa/adsp/libc++abi.so.1:$(TARGET_COPY_OUT_ODM)/lib/rfsa/adsp/libc++abi.so.1 \
     vendor/realme/porsche/proprietary/odm/lib/rfsa/adsp/libcalculator_domains_skel.so:$(TARGET_COPY_OUT_ODM)/lib/rfsa/adsp/libcalculator_domains_skel.so \
     vendor/realme/porsche/proprietary/odm/lib/rfsa/adsp/libcalculator_skel.so:$(TARGET_COPY_OUT_ODM)/lib/rfsa/adsp/libcalculator_skel.so \
     vendor/realme/porsche/proprietary/odm/lib/rfsa/adsp/libhdr_skel.so:$(TARGET_COPY_OUT_ODM)/lib/rfsa/adsp/libhdr_skel.so \
@@ -627,6 +628,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/porsche/proprietary/odm/lib64/libPlatformValidatorShared.so:$(TARGET_COPY_OUT_ODM)/lib64/libPlatformValidatorShared.so \
     vendor/realme/porsche/proprietary/odm/lib64/libPolarrRender.so:$(TARGET_COPY_OUT_ODM)/lib64/libPolarrRender.so \
     vendor/realme/porsche/proprietary/odm/lib64/libPreviewDecisionOld.so:$(TARGET_COPY_OUT_ODM)/lib64/libPreviewDecisionOld.so \
+    vendor/realme/porsche/proprietary/odm/lib64/libQnnHtpStub.so:$(TARGET_COPY_OUT_ODM)/lib64/libQnnHtpStub.so \
     vendor/realme/porsche/proprietary/odm/lib64/libRedeyeReduce.so:$(TARGET_COPY_OUT_ODM)/lib64/libRedeyeReduce.so \
     vendor/realme/porsche/proprietary/odm/lib64/libSNPE.so:$(TARGET_COPY_OUT_ODM)/lib64/libSNPE.so \
     vendor/realme/porsche/proprietary/odm/lib64/libSNPE_G.so:$(TARGET_COPY_OUT_ODM)/lib64/libSNPE_G.so \
@@ -658,6 +660,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/porsche/proprietary/odm/lib64/libapsdarksight.so:$(TARGET_COPY_OUT_ODM)/lib64/libapsdarksight.so \
     vendor/realme/porsche/proprietary/odm/lib64/libapsexif.so:$(TARGET_COPY_OUT_ODM)/lib64/libapsexif.so \
     vendor/realme/porsche/proprietary/odm/lib64/libapsjpeg.so:$(TARGET_COPY_OUT_ODM)/lib64/libapsjpeg.so \
+    vendor/realme/porsche/proprietary/odm/lib64/libapsyuv.so:$(TARGET_COPY_OUT_ODM)/lib64/libapsyuv.so \
     vendor/realme/porsche/proprietary/odm/lib64/libarcsoft_aicolor_image.so:$(TARGET_COPY_OUT_ODM)/lib64/libarcsoft_aicolor_image.so \
     vendor/realme/porsche/proprietary/odm/lib64/libarcsoft_aicolor_video.so:$(TARGET_COPY_OUT_ODM)/lib64/libarcsoft_aicolor_video.so \
     vendor/realme/porsche/proprietary/odm/lib64/libarcsoft_distortion_correction.so:$(TARGET_COPY_OUT_ODM)/lib64/libarcsoft_distortion_correction.so \
@@ -694,6 +697,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/porsche/proprietary/odm/lib64/libdualcam_image_optical_zoom.so:$(TARGET_COPY_OUT_ODM)/lib64/libdualcam_image_optical_zoom.so \
     vendor/realme/porsche/proprietary/odm/lib64/libdualcam_optical_zoom_control.so:$(TARGET_COPY_OUT_ODM)/lib64/libdualcam_optical_zoom_control.so \
     vendor/realme/porsche/proprietary/odm/lib64/libdualcam_video_optical_zoom.so:$(TARGET_COPY_OUT_ODM)/lib64/libdualcam_video_optical_zoom.so \
+    vendor/realme/porsche/proprietary/odm/lib64/libexif-jpeg-aps.so:$(TARGET_COPY_OUT_ODM)/lib64/libexif-jpeg-aps.so \
     vendor/realme/porsche/proprietary/odm/lib64/libgf_hal_G3.so:$(TARGET_COPY_OUT_ODM)/lib64/libgf_hal_G3.so \
     vendor/realme/porsche/proprietary/odm/lib64/libhta.so:$(TARGET_COPY_OUT_ODM)/lib64/libhta.so \
     vendor/realme/porsche/proprietary/odm/lib64/libhwconfigurationutil.so:$(TARGET_COPY_OUT_ODM)/lib64/libhwconfigurationutil.so \
@@ -721,12 +725,15 @@ PRODUCT_COPY_FILES += \
     vendor/realme/porsche/proprietary/odm/lib64/libtriplecam_optical_zoom_control.so:$(TARGET_COPY_OUT_ODM)/lib64/libtriplecam_optical_zoom_control.so \
     vendor/realme/porsche/proprietary/odm/lib64/libtriplecam_video_optical_zoom.so:$(TARGET_COPY_OUT_ODM)/lib64/libtriplecam_video_optical_zoom.so \
     vendor/realme/porsche/proprietary/odm/lib64/libwatermark_photo.so:$(TARGET_COPY_OUT_ODM)/lib64/libwatermark_photo.so \
+    vendor/realme/porsche/proprietary/odm/lib64/libyuvwrapper.so:$(TARGET_COPY_OUT_ODM)/lib64/libyuvwrapper.so \
     vendor/realme/porsche/proprietary/odm/lib64/vendor.oplus.hardware.cameraextension-V1-service-impl.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.cameraextension-V1-service-impl.so \
     vendor/realme/porsche/proprietary/odm/lib64/vendor.oplus.hardware.cammidasservice-V1-ndk_platform.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.cammidasservice-V1-ndk_platform.so \
     vendor/realme/porsche/proprietary/odm/lib64/vendor.oplus.hardware.commondcs-V1-ndk_platform.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.commondcs-V1-ndk_platform.so \
     vendor/realme/porsche/proprietary/odm/lib64/vendor.oplus.hardware.olc2-V1-ndk_platform.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.olc2-V1-ndk_platform.so \
     vendor/realme/porsche/proprietary/odm/lib64/vendor.oplus.hardware.orms@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.orms@1.0.so \
     vendor/realme/porsche/proprietary/odm/lib64/vendor.oplus.hardware.osense.client@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.osense.client@1.0.so \
+    vendor/realme/porsche/proprietary/odm/lib64/vendor.oplus.hardware.sendextcamcmd-V1-ndk_platform.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.sendextcamcmd-V1-ndk_platform.so \
+    vendor/realme/porsche/proprietary/odm/lib64/vendor.oplus.hardware.sendextcamcmd-V1-service-impl.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.sendextcamcmd-V1-service-impl.so \
     vendor/realme/porsche/proprietary/odm/lib64/vendor.qti.esepowermanager@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.qti.esepowermanager@1.0.so \
     vendor/realme/porsche/proprietary/odm/lib64/vendor.qti.esepowermanager@1.1.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.qti.esepowermanager@1.1.so \
     vendor/realme/porsche/proprietary/odm/vendor/etc/wifi/WCNSS_qcom_cfg.ini:$(TARGET_COPY_OUT_ODM)/vendor/etc/wifi/WCNSS_qcom_cfg.ini \
