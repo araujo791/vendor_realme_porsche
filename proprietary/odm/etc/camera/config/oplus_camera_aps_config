@@ -184,14 +184,6 @@
 },
 
 {
-  "VendorTag": "com.oplus.aps.previewdecison.skipcnt",
-  "Type": "Int32",
-  "Count": "1",
-  "Value": "3",
-  "Comment": "set previewdecision skip frame count, default:1"
-},
-
-{
   "VendorTag": "com.oplus.aps.params.videoblur",
   "Type": "Int32",
   "Count": "2",
