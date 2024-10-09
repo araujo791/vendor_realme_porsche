@@ -1,5 +1,4 @@
-{
-    "default": {
+{    "default": {
         "orms_need_observe_third_package_list": [
             "com.tencent.mm",
             "com.tencent.mobileqq",
@@ -64,6 +63,29 @@
     "com.twitter.android": {
         "previewSizeForAPI1Width": 1920,
         "previewSizeForAPI1Height": 1080
+    },
+    "im.kumu.ph": {
+        "previewSizeForAPI1Width": 1920,
+        "previewSizeForAPI1Height": 1080
+    },
+    "com.manboker.headportrait": {
+        "previewSizeForAPI1Width": 1920,
+        "previewSizeForAPI1Height": 1080
+    },
+    "com.flavionet.android.camera.lite": {
+        "maxPreviewWidthForAPI2": 1920,
+        "maxPreviewHeightForAPI2": 1080,
+        "thirdPartyAppLimitPicture": true
+    },
+    "com.skype.raider": {
+        "maxPreviewWidthForAPI2": 1920,
+        "maxPreviewHeightForAPI2": 1080,
+        "thirdPartyAppLimitPicture": true
+    },
+    "com.microsoft.teams": {
+        "thirdPartyAppWidthLimitForCam1API2": 1920,
+        "thirdPartyAppHeightLimitForCam1API2": 1080,
+        "thirdPartyAppLimitPicture": true
     },
     "jp.naver.line.android": {
         "Limit_Intelligent_Eviction": true

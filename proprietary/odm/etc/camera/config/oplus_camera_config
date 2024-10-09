@@ -669,7 +669,7 @@
   "VendorTag": "com.oplus.feature.screen.bright.recover.threshold",
   "Type": "Int32",
   "Count": "1",
-  "Value": "360"
+  "Value": "345"
 },
 
 {
@@ -1058,13 +1058,6 @@
 
 {
   "VendorTag": "com.oplus.star.video.support",
-  "Type": "Byte",
-  "Count": "1",
-  "Value": "1"
-},
-
-{
-  "VendorTag": "com.oplus.star.video.verify.frame",
   "Type": "Byte",
   "Count": "1",
   "Value": "1"

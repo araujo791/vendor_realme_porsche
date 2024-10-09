@@ -1351,7 +1351,7 @@
                             "skip_frame_cnt": 0,
                             "pipeline_copy_from": "",
                             "algonode_copy_from": "",
-                            "algo_list": [ "" ]
+                            "algo_list": [ "preview_default" ]
                         },
                         "video": {
                             "enable": 0
@@ -1600,7 +1600,7 @@
                             "skip_frame_cnt": 0,
                             "pipeline_copy_from": "",
                             "algonode_copy_from": "",
-                            "algo_list": [ "" ]
+                            "algo_list": [ "preview_default" ]
                         },
                         "video": {
                             "enable": 1,
